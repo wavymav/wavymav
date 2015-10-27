@@ -16,8 +16,6 @@
     
     body: { font-size: 18px; }
     
-    .main-nav { display: none }
-    
     section: { padding: 60px 0; }
     
     .proj-box p { font-size: 15px }
@@ -50,11 +48,32 @@
         margin: 0 0 5% 0; 
     }
     
+    .main-nav { display: none; } 
+    .mobile-toggle { display: inline-block; }
+    
+    .main-nav { 
+        float: left; 
+        margin-top: 30px;
+        margin-left: 30px;
+    }
+    .main-nav li { display: block; }
+    .main-nav li a:link,
+    .main-nav li a:visited {
+        display: block;
+        border: 0;
+        padding: 15px 0;
+        font-size: 130%
+    }
+    
     .mega-block {
         height: 200px;
         width: auto;
     }
-    
+
+    .sticky .main-nav li a:link, 
+    .sticky .main-nav li a:visited { padding: 15px 0; }
+    .sticky .mobile-toggle { margin-top: 10px; }
+    .sticky .mobile-toggle i { color: #555; }
     
 }
 

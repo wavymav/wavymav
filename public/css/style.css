@@ -205,7 +205,19 @@ header {
     border-bottom: 3px solid #2FD565;
 }
 
-/* ---- stiky nav ----*/
+.mobile-toggle {
+    float: right;
+    margin-top: 25px;
+    cursor: pointer;
+    display: none;
+}
+
+.mobile-toggle i {
+    font-size: 200%;
+    color: #fff;
+}
+
+/* ---- sticky nav ----*/
 .sticky {
     position: fixed;
     top: 0;
@@ -228,6 +240,7 @@ header {
 }
 
 .sticky .main-nav { margin-top: 22px; }
+
 
 /*--------------------------------------------*/
 /* GITHUB PROJECTS */
