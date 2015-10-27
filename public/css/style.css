@@ -1,0 +1,34 @@
+/*
+* @spoty green: #2FD565
+*/
+
+/*--------------------------------------------*/
+/* BASIC SETUP */
+/*--------------------------------------------*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    background-color: #fff;
+    color: #555;
+    font-family: 'Lato', 'Arial', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+}
+
+::-moz-selection {
+    background: #2FD565;
+    color: #fff;
+}
+
+::selection {
+    background: #2FD565;
+    color: #fff;
+}
