@@ -31,4 +31,23 @@ $(document).ready(function() {
         }
       });
     });
+    
+    // Mobile nav toggle
+    $('.mobile-toggle').click(function() {
+        var $nav = $('.main-nav');
+        var $icon = $('.mobile-toggle i');
+        
+        $nav.slideToggle(500);
+        
+        if ($icon.hasClass('ion-navicon-round')) {
+            $icon.addClass('ion-close-round');
+            $icon.removeClass('ion-navicon-round');
+        } else {
+            $icon.addClass('ion-navicon-round');
+            $icon.removeClass('ion-close-round');
+        } 
+        
+        
+        
+    });
 });
