@@ -100,9 +100,6 @@ h2:after {
     margin-top: 30px;
 }
 
-/* ---- PARAGRAPHS ---- */
-
-
 
 /* ---- ICONS ---- */
 
@@ -112,6 +109,18 @@ h2:after {
     color: #2FD565;
     margin-bottom: 10px;
     text-align: center;
+}
+
+.icon-contact {
+    display: inline-block;
+    width: 30px;
+    text-align: center;
+    color: #2FD565;
+    font-size: 220%;
+    margin-right: 10px;
+    line-height: 120%;
+    vertical-align: middle;
+    margin-top: -4px;
 }
 
 /*--------------------------------------------*/
@@ -229,3 +238,63 @@ header {
 .name {
     color: #2FD565;
 }
+
+
+.btn-full:link,
+.btn-full:visited {
+    display: block;
+    text-align: center;
+    background-color: #2FD565;
+    text-decoration: none;
+    padding: 20px 10px;
+    margin: 5% 30% 0 30%;
+    border-radius: 50px;
+    color: #fff;
+    transition: background-color: 0.3s;
+}
+
+.btn-full:hover,
+.btn-full:active {
+    background-color: #24b754;
+}
+
+/*--------------------------------------------*/
+/* ABOUT ME */
+/*--------------------------------------------*/
+
+.about-me {
+    background-color: #f4f4f4;
+}
+
+.mega-block {
+    height: 250px;
+    width: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
+
+.about-body {
+    line-height: 185%;
+    width: 60%;
+    margin-top: 5%;
+    margin-left: 20%;
+    text-align: center;
+}
+
+/*--------------------------------------------*/
+/* CONTACT ME */
+/*--------------------------------------------*/
+
+
+.contacts p {
+    text-align: center;
+}
+
+/*--------------------------------------------*/
+/* FOOTER */
+/*--------------------------------------------*/
+
+
+
