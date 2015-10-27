@@ -32,3 +32,75 @@ body {
     background: #2FD565;
     color: #fff;
 }
+
+/*--------------------------------------------*/
+/* REUSABLE COMPONENTS */
+/*--------------------------------------------*/
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* ---- HEADINGS ---- */
+
+h1,
+h2 {
+    font-weight: 300;
+    text-transform: uppercase;
+    
+}
+
+h1:after {
+    display: block;
+    height: 2px;
+    background-color: #2FD565;
+    content: "";
+    width: 125px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+h1 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 240%;
+    color: #fff;
+    word-spacing: 4px;
+    letter-spacing: 1px;
+}
+
+
+
+/*--------------------------------------------*/
+/* HEADER */
+/*--------------------------------------------*/
+
+header {
+    background-image:  -webkit-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)) ,url(img/hero.jpeg);
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)) ,url(img/hero.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+
+.hero-text {
+    position: absolute;
+    width: 1140px;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.hero-text h1,
+.hero-text h2 {
+    text-align: center;
+}
+
+.hero-text h2 {
+    color: #2FD565;
+}
