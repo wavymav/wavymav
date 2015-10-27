@@ -283,6 +283,10 @@ header {
     text-align: center;
 }
 
+.about-body span {
+    text-decoration: underline;
+}
+
 /*--------------------------------------------*/
 /* CONTACT ME */
 /*--------------------------------------------*/
