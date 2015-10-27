@@ -70,6 +70,15 @@ h1 {
     letter-spacing: 1px;
 }
 
+/* ---- ICONS ---- */
+
+.icon-big {
+    font-size: 350%;
+    display: block;
+    color: #2FD565;
+    margin-bottom: 10px;
+    text-align: center;
+}
 
 
 /*--------------------------------------------*/
@@ -103,4 +112,46 @@ header {
 
 .hero-text h2 {
     color: #2FD565;
+}
+
+
+
+.m-b {
+    font-size: 300%;
+    color: #fff;
+    float: left;
+    margin-top: 30px
+}
+
+.m-b span{
+    font-weight: 600;
+    color: #2FD565;
+}
+
+.main-nav {
+    float: right;
+    list-style: none;
+    margin-top: 60px;
+    padding-right: 1%;
+}
+
+.main-nav li {
+    display: inline-block;
+    margin-left: 55px;
+}
+
+.main-nav li a:link, 
+.main-nav li a:visited {
+    padding: 8px 0;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 110%;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.3s;
+}
+
+.main-nav li a:active, 
+.main-nav li a:hover {
+    border-bottom: 2px solid #2FD565;
 }
