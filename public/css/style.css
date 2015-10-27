@@ -296,5 +296,12 @@ header {
 /* FOOTER */
 /*--------------------------------------------*/
 
+footer {
+    padding: 60px 0;
+    border-top: 1px solid #2FD565;
+}
 
+footer p {
+    text-align: center;
+}
 
