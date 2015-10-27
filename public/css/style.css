@@ -235,6 +235,8 @@ header {
     text-align: center;
 }
 
+.proj-box p:first-child { font-size: 140%}
+
 .name {
     color: #2FD565;
 }
@@ -292,7 +294,7 @@ header {
 /*--------------------------------------------*/
 
 
-.contacts p {
+.box {
     text-align: center;
 }
 

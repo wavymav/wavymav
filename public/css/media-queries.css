@@ -2,15 +2,59 @@
 /* Medium Tablets to Small Laptops from 1024px to 1200px */
 @media only screen and (max-width: 1200px) {
     
+    .hero-text { 
+        width: 100%;
+        padding: 0 2%;
+    }
+    
+    .row { padding: 0 2%; }
+    
 }
 
 /* Medium Mobile Phones & Small Tablets from 768px to 1023px */
 @media only screen and (max-width: 1023px) {
     
+    body: { font-size: 18px; }
+    
+    .main-nav { display: none }
+    
+    section: { padding: 60px 0; }
+    
+    .proj-box p { font-size: 15px }
+    .proj-box p:first-child { font-size: 22px}
+    .proj-box { 
+        width: 100%;
+        margin-left: 0;
+    }
+    
+    .about-body {
+        width: 80%;
+        margin-top: 5%;
+        margin-left: 10%;
+        text-align: center;
+    }
 }
 
 /* Medium Mobile Phones from 481px to 767px */
 @media only screen and (max-width: 767px) {
+    
+    body { font-size: 16px; }
+    
+    section { padding: 30px 0; }
+    
+    .row,
+    .hero-text { padding: 0 4%; }
+    
+    .col { 
+        width: 100%;
+        margin: 0 0 5% 0; 
+    }
+    
+    .mega-block {
+        height: 200px;
+        width: auto;
+    }
+    
     
 }
 
@@ -18,4 +62,12 @@
 /* Small Mobile Phones from 0 480px */
 @media only screen and (max-width: 480px) {
     
+    h1 { font-size: 200%; }
+    
+    section { padding: 25px 0; }
+    
+    .mega-block {
+        height: 170px;
+        width: auto;
+    }
 }
