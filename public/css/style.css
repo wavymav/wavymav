@@ -42,10 +42,16 @@ body {
     margin: 0 auto;
 }
 
+section {
+    padding: 80px 0
+}
+
 /* ---- HEADINGS ---- */
 
+
 h1,
-h2 {
+h2,
+h3 {
     font-weight: 300;
     text-transform: uppercase;
     
@@ -70,6 +76,34 @@ h1 {
     letter-spacing: 1px;
 }
 
+h2 {
+    font-size: 180%;
+    word-spacing: 2px;
+    text-align: center;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+}
+
+h3 {
+    font-size: 110%;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+h2:after {
+    display: block;
+    height: 2px;
+    background-color: #2FD565;
+    content: "";
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+/* ---- PARAGRAPHS ---- */
+
+
+
 /* ---- ICONS ---- */
 
 .icon-big {
@@ -79,7 +113,6 @@ h1 {
     margin-bottom: 10px;
     text-align: center;
 }
-
 
 /*--------------------------------------------*/
 /* HEADER */
@@ -106,15 +139,18 @@ header {
 }
 
 .hero-text h1,
-.hero-text h2 {
+.hero-text h3 {
     text-align: center;
 }
 
-.hero-text h2 {
+.hero-text h3 {
     color: #2FD565;
 }
 
-
+.hero-text h3 span {
+    color: #fff;
+    font-weight: 100;
+}
 
 .m-b {
     font-size: 300%;
@@ -154,4 +190,42 @@ header {
 .main-nav li a:active, 
 .main-nav li a:hover {
     border-bottom: 2px solid #2FD565;
+}
+
+/*--------------------------------------------*/
+/* GITHUB PROJECTS */
+/*--------------------------------------------*/
+
+
+.project-desc {
+    line-height: 145%;
+    width: 70%;
+    margin-left: 15%;
+    text-align: center;
+    font-size: 145%;
+    padding-bottom: 3%
+}
+
+.proj-box {
+    background-color: #f4f4f4;;
+    border-radius: 5px;
+    width: 90%;
+    margin-left: 5%;
+    box-shadow: 0 5px 4px #c9c9c9;
+}
+
+.proj-box a,
+.proj-box a {
+    text-decoration: none;
+    color: #555;
+}
+
+.proj-box p {
+    padding: 15px;
+    border-bottom: 1px solid #e8e8e8;
+    text-align: center;
+}
+
+.name {
+    color: #2FD565;
 }
