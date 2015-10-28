@@ -1,0 +1,22 @@
+{
+  "name": "wavymav",
+  "version": "1.0.0",
+  "description": "My personal website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wavymav/wavymav.git"
+  },
+  "author": "Marcus Barnes <mavjbarnes@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wavymav/wavymav/issues"
+  },
+  "homepage": "https://github.com/wavymav/wavymav#readme",
+  "devDependencies": {
+    "gulp": "3.9.0"
+  }
+}
